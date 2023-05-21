@@ -1,0 +1,49 @@
+.box
+{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(30%);
+    top: -8px;
+    position: absolute;
+    width: 300px;
+}
+.form input:not(:last-child)
+{
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border-color: red;
+    padding: 8px 6px  ;
+}
+.form label
+{
+    color: red;
+}
+.btn
+{
+
+    width: fit-content;
+    margin-left: 100px;
+}
+.header
+{
+    margin-left: 80px;
+}
+.btngoogle
+{
+    background-color: orange;
+    border-color: orange;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.btngoogle:hover
+{
+    background-color: orange;
+    border-color:orange ;
+}
